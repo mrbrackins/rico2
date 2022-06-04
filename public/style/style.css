@@ -187,13 +187,15 @@ background: black;
 }
 .section1_left {
     flex: 1;
-        background: red;
         height: 60px;
         padding-left: 10%;
     }
 .section1_right {
     flex: 1;
-    background: blue;
     height: 60px;
     padding-right: 10%;
+}
+
+.section1 {
+    background-image: url("/back.jpg");
 }
