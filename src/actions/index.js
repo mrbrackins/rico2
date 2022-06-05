@@ -1,8 +1,8 @@
 // Action creator
-export const selectSong = song => {
+export const sendContactInfo = info => {
   // Return an action
   return {
-    type: 'SONG_SELECTED',
-    payload: song
+    type: 'SEND_CONTACT_INFO',
+    payload: info
   };
 };
