@@ -27,9 +27,40 @@ class Contact extends Component {
         <div className='contact_header'>
         </div>
         <div className='contact_content'>
-            <h1>Some Content?</h1>
+        <h1 className="contact_content_title">Dictumst dui egestas.</h1>
+        
+        <div className='contact_flex_container'>
+          <div>
+            <label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname" value="John" />
+          </div>
+          <div>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" value="Doe" />
+          </div>
+        </div>     
+ 
+ <div className='contact_flex_container'>
+          <div>
+ <label for="lname">Email Address:</label>
+  <input type="text" id="lname" name="lname" value="Doe" />
+          </div>
+          <div>
+
+   <label for="lname">Phone:</label>
+  <input type="text" id="lname" name="lname" value="Doe" />
+          </div>
+  
         </div>
-    </div>;
+         <label for="lname">Country:</label>
+  <input type="text" id="lname" name="lname" value="Doe" />
+        <div className='contact_button'>Hello</div>
+        <div className="contact_better_business">
+<img src="/better_business.png" />
+        </div>
+        
+      </div>
+      </div>
   }
 }
 
