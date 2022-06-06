@@ -378,3 +378,7 @@ input:placeholder-shown {
 .right-margin {
   margin-right: 5% !important;
 }
+
+.reviewSection {
+  background: #F3F4F5;
+}
